@@ -1,4 +1,4 @@
-#  Alternative Currency App
+#  Bitcoin Bazaar App
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
@@ -11,7 +11,7 @@
 
 **Step 3:** Install the Application with `npm install`
 
-**Step 4:** Change your App name. Replace `AlternativeCurrencyApp` by your currency name. 
+**Step 4:** Change your App name. Replace `BitcoinBazaar` by your currency name. 
 
 **Step 5:** Generate ios and android folders with `react-native eject`
 
