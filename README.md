@@ -1,7 +1,7 @@
 #  Bitcoin Bazaar App
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-* Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
+This app is intended to be the base for many different alternative currencies, social currencies and marketplace apps.
 
 ## :arrow_up: How to Setup
 
@@ -9,9 +9,11 @@
 
 **Step 2:** cd to the cloned repo:
 
-**Step 3:** Install the Application with `npm install`
+**Step 3:** Change your App name. Replace `AlternativeCurrencyApp` by your currency name. Find and replace with your favorite editor. Or with teh following commands:
+  * `$ find . -type f  -exec sed -i 's/alternativecurrencyapp/bitcoinbazaar/g' {} \;`
+  * `$ find . -type f  -exec sed -i 's/AlternativeCurrencyApp/BitcoinBazaar/g' {} \;`
 
-**Step 4:** Change your App name. Replace `BitcoinBazaar` by your currency name. 
+**Step 4:** Install the Application with `npm install`
 
 **Step 5:** Generate ios and android folders with `react-native eject`
 
@@ -19,7 +21,7 @@
 
 **Step 7:** Now you are able to run the app. Read the next point.
 
-**Step 8:** In order to make Location and Camera (among other services) to work you should replace the files inside ios and android folders by their copy in `BuildFiles`. Check out the `Readme.md` in that folder.  
+**Step 8:** In order to make Location and Camera (among other services) to work you should replace the files inside ios and android folders by their copy in `BuildFiles`. Check out the `Readme.md` in that folder.
 
 ## :arrow_forward: How to Run App
 
