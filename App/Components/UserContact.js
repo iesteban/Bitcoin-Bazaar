@@ -84,7 +84,7 @@ export default class ServiceFeed extends React.Component {
 
    renderFaircoinAddress(user) {
     if ((AppConfig.FaircoinEnabled) && (user.faircoin_address)) {
-      url = "faircoin:" + user.faircoin_address
+      url = "bitcoin:" + user.faircoin_address
       return (
         <View>
           <Text style={styles.fieldTitle}>{I18n.t('Faircoin Address')}</Text>

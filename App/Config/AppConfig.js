@@ -6,7 +6,7 @@ export default {
   FaircoinEnabled: true,
   CurrencyName: "mBTC",
   AppShortName: "Bitcoin Bazaar",
-  WalletEnabled: false
+  WalletEnabled: false,
   // Set to false to disable this buttons from drawer
   howItWorksUrl: false,
   aboutUsUrl: false
