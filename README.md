@@ -34,6 +34,23 @@ This app is intended to be the base for many different alternative currencies, s
     * Run Genymotion
     * run `react-native run-android`
 
+
+
+## :arrow_forward: Set your Icons
+### Logo inside de app
+Overwrite the files:
+  - `App/Images/Images/top_logo.png`
+  - `App/Images/top_logo@2x.png`
+  - `App/Images/top_logo@3x.png`
+
+### App Icon
+
+  - You should have installed https://www.npmjs.com/package/react-native-icon
+  - Check you have installed Imagemagick
+  - Place a copy of your logo in: MyCurrency/icon.png
+  - Run `$ ./node_modules/.bin/react-native-icon`
+
+
 ## :no_entry_sign: Standard Compliant
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
